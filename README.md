@@ -1,5 +1,9 @@
 # 💫 About Me:
-I am a senior bachelor's student at the Sharif University of Technology in computer engineering<br>I am a senior software engineer at Digikala (the most prominent e-commerce in the Middle East) with more than three years of experience<br>I have in-depth knowledge in relational databases.<br>I currently working on IoTDB, leading time-series db in the world. 
+I am a senior bachelor's student at the Sharif University of Technology in computer engineering
+<!---
+<br>I am a senior software engineer at Digikala (the most prominent e-commerce in the Middle East) with more than three years of experience<be>
+-->
+I have in-depth knowledge in relational databases.<br>I currently working on IoTDB, leading time-series db in the world. 
 <br> Talk about Software, Databases, Systems And IOT.
 
 <!---
