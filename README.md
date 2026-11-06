@@ -26,11 +26,13 @@ isolation level quietly decides what the whole platform can afford.
 
 ## What I work with
 
+**Languages** Java · Python · PHP · C# · Go · SQL · C · JavaScript
+
 **Databases** MySQL · PostgreSQL · query optimisation · index design · transaction isolation
 and locking · replication, failover and disaster recovery · ClickHouse · MongoDB ·
 Elasticsearch · Percona Monitoring and Management
 
-**Backend** Java + Spring Boot · PHP · Python · C#/.NET · Apache Kafka · change data capture ·
+**Backend** Spring Boot · ASP.NET and Entity Framework · Apache Kafka · change data capture ·
 Redis · microservices · distributed transactions · CQRS and eventual consistency
 
 **Practice** TDD · clean architecture · domain-driven design principles · hexagonal separation ·
@@ -44,15 +46,17 @@ Most of what I build is closed-source and lives inside a marketplace. What is pu
 mainly systems and database work from research and university projects — the fundamentals
 underneath the production work.
 
-| | |
-|---|---|
-| **[mariadb-tpcds](https://github.com/hoseinaghaei/mariadb-tpcds)** | The full TPC-DS v4.0.0 schema and all 99 queries against MariaDB, with an isolated measurement protocol. Benchmarking done carefully enough to be honest about what the numbers do and do not mean. |
-| **[encoding-compression-benchmark](https://github.com/hoseinaghaei/encoding-compression-benchmark)** | Java benchmarks comparing numeric encoders, compressors and hybrid pipelines, with Python analysis. Came out of asking what it actually costs to store a time series. |
-| **[mibench](https://github.com/hoseinaghaei/mibench)** | The MiBench embedded suite extended into Python and Java, plus the gem5 → McPAT toolchain for power, area and timing. The measurement infrastructure behind a thermal-management paper. |
-| **[c-minus-compiler](https://github.com/hoseinaghaei/c-minus-compiler)** | A one-pass compiler in Python: scanner, parser, semantic analyser and intermediate code generation, including recursive calls. |
-| **[OS_pintos](https://github.com/hoseinaghaei/OS_pintos)** | PintOS through three phases, ending in an inode-based filesystem with a buffer cache and the synchronisation to make it safe. |
-| **[MIPS-Verilog](https://github.com/hoseinaghaei/MIPS-Verilog)** | A MIPS processor in SystemVerilog — the other end of the stack from a query planner. |
-| **[SDN](https://github.com/hoseinaghaei/SDN)** | Shortest-path routing pushed into a software-defined network controller over a Mininet topology. |
+| Project | Built with | |
+|---|---|---|
+| **[mariadb-tpcds](https://github.com/hoseinaghaei/mariadb-tpcds)** | C, Python | The full TPC-DS v4.0.0 schema and all 99 queries against MariaDB, with an isolated measurement protocol. Benchmarking done carefully enough to be honest about what the numbers do and do not mean. |
+| **[encoding-compression-benchmark](https://github.com/hoseinaghaei/encoding-compression-benchmark)** | Java, Python | Benchmarks comparing numeric encoders, compressors and hybrid pipelines, with analysis scripts. Came out of asking what it actually costs to store a time series. |
+| **[kafka](https://github.com/hoseinaghaei/kafka)** | Python, Java, Docker | Server for a Kafka-style message broker — brokers, partitions and delivery|
+| **[onlineTicket](https://github.com/hoseinaghaei/onlineTicket)** | JavaScript, Docker | An online ticketing platform with organisations, products and agent assignment, shipped through a full CI pipeline. |
+| **[mibench](https://github.com/hoseinaghaei/mibench)** | C, Python, Java | The MiBench embedded suite extended into Python and Java, plus the gem5 &rarr; McPAT toolchain for power, area and timing. The measurement infrastructure behind a thermal-management paper. |
+| **[c-minus-compiler](https://github.com/hoseinaghaei/c-minus-compiler)** | Python | A one-pass compiler: scanner, parser, semantic analyser and intermediate code generation, including recursive calls. |
+| **[OS_pintos](https://github.com/hoseinaghaei/OS_pintos)** | C | PintOS through three phases, ending in an inode-based filesystem with a buffer cache and the synchronisation to make it safe. |
+| **[MIPS-Verilog](https://github.com/hoseinaghaei/MIPS-Verilog)** | SystemVerilog, Assembly | A MIPS processor — the other end of the stack from a query planner. |
+| **[SDN](https://github.com/hoseinaghaei/SDN)** | Python, Mininet | Shortest-path routing pushed into a software-defined network controller over a Mininet topology. |
 
 ---
 
@@ -69,7 +73,6 @@ Multicore Systems** — with A. Ansari and M. Ansari. *Submitted.*
 
 ## Elsewhere
 
-[Website](https://hoseinaghaei.github.io) ·
 [LinkedIn](https://www.linkedin.com/in/hossein-aghaei-araei/) ·
 h.aghaei.araei@gmail.com
 
