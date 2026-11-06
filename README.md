@@ -1,27 +1,81 @@
-# 💫 About Me:
-I am a senior bachelor's student at the Sharif University of Technology in computer engineering
-<!---
-<br>I am a senior software engineer at Digikala (the most prominent e-commerce in the Middle East) with more than three years of experience<be>
--->
-I have in-depth knowledge in relational databases.<br>I currently working on IoTDB, leading time-series db in the world. 
-<br> Talk about Software, Databases, Systems And IOT.
+# Hossein Aghaei Araei
 
-<!---
- ## 🌐 Socials:
-<> [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)]([Hossein Aghaei](https://www.linkedin.com/in/hossein-aghaei-araei/)) 
--->
+**Engineering Manager & Technical Lead — backend systems and relational database performance.**
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![AssemblyScript](https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![YAML](https://img.shields.io/badge/yaml-%23ffffff.svg?style=for-the-badge&logo=yaml&logoColor=151515) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka) ![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=InfluxDB&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=hoseinaghaei&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=hoseinaghaei&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=hoseinaghaei&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+I own the price and promotion domain at [Digikala](https://www.digikala.com), the largest
+e-commerce platform in its market. Six years of making systems cheaper, faster and more
+correct while they stay in production — usually by arguing for the change nobody wanted to
+own.
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+My specialism is the database layer: the point where a schema decision, an index, or an
+isolation level quietly decides what the whole platform can afford.
+
+```
+100M+   events a day through buy-box selection, at 2,000+ req/s on five database CPU cores
+8B+     rows in our largest table, split into hot and cold halves that both serve live traffic
+                                                     → hot table 32× smaller, zero downtime
+40%     less CPU on the main database, after tracing a "caching bug" to the transaction
+                                                     isolation level across 10+ live databases
+50k+    req/s stock-management microservice with distributed transactions
+90→10   minutes for auto-pricing across 1M+ products
+800k    concurrent users across three Black Friday campaigns
+~200    engineers through an advanced MySQL programme I designed and taught
+```
 
 ---
-[![](https://visitcount.itsvg.in/api?id=hoseinaghaei&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## What I work with
+
+**Databases** MySQL · PostgreSQL · query optimisation · index design · transaction isolation
+and locking · replication, failover and disaster recovery · ClickHouse · MongoDB ·
+Elasticsearch · Percona Monitoring and Management
+
+**Backend** Java + Spring Boot · PHP · Python · C#/.NET · Apache Kafka · change data capture ·
+Redis · microservices · distributed transactions · CQRS and eventual consistency
+
+**Practice** TDD · clean architecture · domain-driven design principles · hexagonal separation ·
+Docker · Linux · Git · GitLab CI/CD · Grafana · agentic coding with Claude Code
+
+---
+
+## Selected work
+
+Most of what I build is closed-source and lives inside a marketplace. What is public here is
+mainly systems and database work from research and university projects — the fundamentals
+underneath the production work.
+
+| | |
+|---|---|
+| **[mariadb-tpcds](https://github.com/hoseinaghaei/mariadb-tpcds)** | The full TPC-DS v4.0.0 schema and all 99 queries against MariaDB, with an isolated measurement protocol. Benchmarking done carefully enough to be honest about what the numbers do and do not mean. |
+| **[encoding-compression-benchmark](https://github.com/hoseinaghaei/encoding-compression-benchmark)** | Java benchmarks comparing numeric encoders, compressors and hybrid pipelines, with Python analysis. Came out of asking what it actually costs to store a time series. |
+| **[mibench](https://github.com/hoseinaghaei/mibench)** | The MiBench embedded suite extended into Python and Java, plus the gem5 → McPAT toolchain for power, area and timing. The measurement infrastructure behind a thermal-management paper. |
+| **[c-minus-compiler](https://github.com/hoseinaghaei/c-minus-compiler)** | A one-pass compiler in Python: scanner, parser, semantic analyser and intermediate code generation, including recursive calls. |
+| **[OS_pintos](https://github.com/hoseinaghaei/OS_pintos)** | PintOS through three phases, ending in an inode-based filesystem with a buffer cache and the synchronisation to make it safe. |
+| **[MIPS-Verilog](https://github.com/hoseinaghaei/MIPS-Verilog)** | A MIPS processor in SystemVerilog — the other end of the stack from a query planner. |
+| **[SDN](https://github.com/hoseinaghaei/SDN)** | Shortest-path routing pushed into a software-defined network controller over a Mininet topology. |
+
+---
+
+## Research
+
+**Lightweight MQTT–Time Series Database Integration for IoT: Optimizing Payloads for Traffic
+and Energy Efficiency** — profiling Apache IoTDB in a clustered environment and designing an
+MQTT payload format that cuts network and energy overhead. *In preparation.*
+
+**HAMLET: Adaptive Machine Learning-based Thermal Management in Fault-Tolerant Heterogeneous
+Multicore Systems** — with A. Ansari and M. Ansari. *Submitted.*
+
+---
+
+## Elsewhere
+
+[Website](https://hoseinaghaei.github.io) ·
+[LinkedIn](https://www.linkedin.com/in/hossein-aghaei-araei/) ·
+h.aghaei.araei@gmail.com
+
+<br>
+
+<p align="left">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=hoseinaghaei&show_icons=true&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hoseinaghaei&layout=compact&hide_border=true&langs_count=8" alt="Top languages" />
+</p>
