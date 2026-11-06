@@ -1,6 +1,6 @@
 # Hossein Aghaei Araei
 
-**Engineering Manager & Technical Lead — backend systems and relational database performance.**
+**Principal Software Engineer — backend systems and relational database performance.**
 
 I own the price and promotion domain at [Digikala](https://www.digikala.com), the largest
 e-commerce platform in its market. Six years of making systems cheaper, faster and more
@@ -26,17 +26,29 @@ isolation level quietly decides what the whole platform can afford.
 
 ## What I work with
 
-**Languages** Java · Python · PHP · C# · Go · SQL · C · JavaScript
+**Languages** Java (Spring Boot, Spring Data JPA, Hibernate) · PHP · Python · Go ·
+C#/.NET (ASP.NET Core, .NET Framework, Entity Framework) · JavaScript with Node.js and React ·
+C · R · SQL · Bash
 
-**Databases** MySQL · PostgreSQL · query optimisation · index design · transaction isolation
-and locking · replication, failover and disaster recovery · ClickHouse · MongoDB ·
-Elasticsearch · Percona Monitoring and Management
+**Databases** MySQL and PostgreSQL performance — query optimisation · index design ·
+transaction isolation and locking · replication, failover and disaster recovery ·
+ClickHouse · MongoDB · Elasticsearch · IoTDB/InfluxDB for time series
 
-**Backend** Spring Boot · ASP.NET and Entity Framework · Apache Kafka · change data capture ·
-Redis · microservices · distributed transactions · CQRS and eventual consistency
+**Caching & messaging** Redis · Memcached · write-around and write-through caching ·
+Apache Kafka · change data capture · REST API design · OAuth 2.0 and JWT · MQTT · WebSocket
 
-**Practice** TDD · clean architecture · domain-driven design principles · hexagonal separation ·
-Docker · Linux · Git · GitLab CI/CD · Grafana · agentic coding with Claude Code
+**Architecture** Microservices · distributed transactions · CQRS · eventual consistency ·
+SOLID · clean architecture · domain-driven design principles ·
+hexagonal (ports-and-adapters) separation · vertical slice organisation
+
+**Testing** TDD · unit, integration, contract and load testing, including write load tests run
+against production
+
+**AI** Claude Code and Cursor daily on a production codebase · LLM features and agentic
+automation in production workflows
+
+**Tooling** Docker · Linux · Git · GitLab CI/CD · Maven · Grafana ·
+Percona Monitoring and Management · Jenkins (familiarity)
 
 ---
 
